@@ -1,0 +1,23 @@
+{
+  "name": "sequalize-practice",
+  "version": "1.0.0",
+  "description": "Simple job find app for coders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Francisco Sierra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
